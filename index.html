@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VPN/Proxy Detected</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #ff4d4f;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            max-width: 500px;
+        }
+        .button {
+            margin-top: 30px;
+            padding: 12px 24px;
+            background-color: #ff4d4f;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background-color: #e63946;
+        }
+    </style>
+</head>
+<body>
+    <h1>🚫 VPN / Proxy Detected</h1>
+    <p>
+        We detected that you are using a VPN, Proxy, or anonymous network. 
+        For security reasons, access is blocked.
+    </p>
+    <p>
+        Please disable your VPN or Proxy and try again. If you believe this is an error, contact support.
+    </p>
+    <a href="/" class="button">Go Back</a>
+</body>
+</html>
